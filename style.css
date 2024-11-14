@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+* {
+  padding: 0px;
+
+  margin: 0px;
+
+  font-family: 'Space Grotesk';
+
+  color: #f8f9fa;
+
+  font-size: 100px;
+
+  font-weight: 700;
+
+  text-shadow: rgba(33, 37, 41, 0.5) 0px 0px 20px;
+}
+
+body {
+  width: 100vw;
+
+  height: 100vh;
+
+  background-color: #ced4da;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  flex-direction: column;
+
+  gap: 10px;
+
+  min-width: 800px;
+
+  min-height: 600px;
+}
+
+#clock-body {
+  width: 800px;
+
+  height: 600px;
+
+  background-color: #343a40;
+
+  border-radius: 10px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 10px;
+
+  box-shadow: rgba(33, 37, 41, 0.5) 0px 0px 20px;
+}
+
+#hours {
+  width: 200px;
+
+  height: 250px;
+
+  background-color: #495057;
+
+  border-radius: 10px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  box-shadow: rgba(33, 37, 41, 0.5) 0px 0px 20px;
+}
+
+#minutes {
+  width: 200px;
+
+  height: 250px;
+
+  background-color: #495057;
+
+  border-radius: 10px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  box-shadow: rgba(33, 37, 41, 0.5) 0px 0px 20px;
+}
+
+#seconds {
+  width: 200px;
+
+  height: 250px;
+
+  background-color: #495057;
+
+  border-radius: 10px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  box-shadow: rgba(33, 37, 41, 0.5) 0px 0px 20px;
+}
